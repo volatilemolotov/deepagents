@@ -19,8 +19,9 @@ classifiers = [
 version = "0.1.0"
 requires-python = ">=3.11,<4.0"
 dependencies = [
-    "deepagents>=0.5.0,<0.6.0",
-    "k8s-agent-sandbox",
+    "deepagents>=0.6.0,<0.7.0",
+    "k8s-agent-sandbox~=0.5.0",
+    "langgraph-cli[inmem]>=0.4.30",
 ]
 
 [project.urls]
@@ -49,6 +50,6 @@ python_version = "3.11"
 warn_unused_ignores = true
 no_implicit_optional = true
 
-[[tool.mypy.overrides]]
-module = ["k8s_agent_sandbox.*", "deepagents.*", "pytest.*"]
-ignore_missing_imports = true
+
+[tool.pyright]
+extraPaths = ['../../deepagents']
