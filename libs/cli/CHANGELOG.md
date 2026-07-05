@@ -4,6 +4,13 @@
 
 From 0.2.0 onward, `deepagents-cli` exposes `init`, `deploy`, `agents`, and `mcp-servers` against the Managed Deep Agents `/v1/deepagents/*` API. The coding agent (interactive TUI & headless CLI) moved to [`deepagents-code`](https://github.com/langchain-ai/deepagents/blob/main/libs/code/CHANGELOG.md).
 
+## [0.2.3](https://github.com/volatilemolotov/deepagents/compare/deepagents-cli==0.2.2...deepagents-cli==0.2.3) (2026-07-05)
+
+
+### Bug Fixes
+
+* **cli:** support `state` deploy backend ([#3790](https://github.com/volatilemolotov/deepagents/issues/3790)) ([04b4bb9](https://github.com/volatilemolotov/deepagents/commit/04b4bb946fc5ff914b8cccc8c9543d10533de0f8))
+
 ## [0.2.2](https://github.com/langchain-ai/deepagents/compare/deepagents-cli==0.2.1...deepagents-cli==0.2.2) (2026-06-07)
 
 
