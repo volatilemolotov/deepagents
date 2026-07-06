@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .backend import (
-    AgentSandboxBackend,
+from .sandbox import (
+    K8sAgentSandbox,
 )
 
 __all__ = [
-    "AgentSandboxBackend",
+    "K8sAgentSandbox",
 ]
